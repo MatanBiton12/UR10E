@@ -1,0 +1,60 @@
+[0.018s] Invoking command in '/home/ur10e/ur_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur:/home/ur10e/ur_ws/install/ur_calibration:/home/ur10e/ur_ws/install/ur_robot_driver:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur10e_2fg7_moveit_config2:/home/ur10e/ur_ws/install/ur10e_2fg7_description:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/ur_ws/install/gazebo_ros2_control_demos:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_robot_driver/lib:/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ur10e/ur_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur10e/ur_ws/install/gazebo_ros2_control_demos
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.706s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.904s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.021s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.137s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.153s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.168s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.525s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.654s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.672s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.830s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.886s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.970s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.995s] -- Looking for pthread.h
+[2.149s] -- Looking for pthread.h - found
+[2.150s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.313s] -- Found Threads: TRUE  
+[2.401s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.452s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.457s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.684s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.691s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.691s] -- Configured cppcheck include dirs: 
+[2.692s] -- Configured cppcheck exclude dirs and/or files: 
+[2.699s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.700s] -- Configured cpplint exclude dirs and/or files: 
+[2.700s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.701s] -- Added test 'lint_cmake' to check CMake code style
+[2.707s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.709s] -- Added test 'uncrustify' to check C / C++ code style
+[2.709s] -- Configured uncrustify additional arguments: 
+[2.710s] -- Added test 'xmllint' to check XML markup files
+[2.716s] -- Configuring done
+[2.772s] -- Generating done
+[2.775s] -- Build files have been written to: /home/ur10e/ur_ws/build/gazebo_ros2_control_demos
+[2.804s] Invoked command in '/home/ur10e/ur_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur:/home/ur10e/ur_ws/install/ur_calibration:/home/ur10e/ur_ws/install/ur_robot_driver:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur10e_2fg7_moveit_config2:/home/ur10e/ur_ws/install/ur10e_2fg7_description:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/ur_ws/install/gazebo_ros2_control_demos:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_robot_driver/lib:/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ur10e/ur_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur10e/ur_ws/install/gazebo_ros2_control_demos
+[2.806s] Invoking command in '/home/ur10e/ur_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur:/home/ur10e/ur_ws/install/ur_calibration:/home/ur10e/ur_ws/install/ur_robot_driver:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur10e_2fg7_moveit_config2:/home/ur10e/ur_ws/install/ur10e_2fg7_description:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/ur_ws/install/gazebo_ros2_control_demos:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_robot_driver/lib:/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ur10e/ur_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[2.903s] [ 14%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[2.909s] [ 21%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[2.909s] [ 14%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[2.917s] [ 28%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[2.919s] [ 35%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[2.923s] [ 42%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[2.923s] [ 50%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m

@@ -1,0 +1,80 @@
+[0.015s] Invoking command in '/home/ur10e/ur_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/home/ur10e/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ur10e/ur_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[0.073s] [  7%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[0.080s] [ 14%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[0.080s] [ 21%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[0.085s] [ 35%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[0.087s] [ 35%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[0.090s] [ 42%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[8.816s] [ 57%] [32m[1mLinking CXX executable example_velocity[0m
+[8.820s] [ 64%] [32m[1mLinking CXX executable example_gripper[0m
+[9.413s] [ 64%] Built target example_gripper
+[9.452s] [ 64%] Built target example_velocity
+[9.754s] [ 71%] [32m[1mLinking CXX executable example_position_pid[0m
+[10.048s] [ 78%] [32m[1mLinking CXX executable example_diff_drive[0m
+[10.120s] [ 85%] [32m[1mLinking CXX executable example_effort[0m
+[10.241s] [ 92%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[10.317s] [ 92%] Built target example_position_pid
+[10.392s] [ 92%] Built target example_diff_drive
+[10.524s] [ 92%] Built target example_effort
+[10.546s] [ 92%] Built target example_tricycle_drive
+[11.566s] [100%] [32m[1mLinking CXX executable example_position[0m
+[12.075s] [100%] Built target example_position
+[12.112s] Invoked command in '/home/ur10e/ur_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/home/ur10e/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ur10e/ur_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[12.255s] Invoking command in '/home/ur10e/ur_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/home/ur10e/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ur10e/ur_ws/build/gazebo_ros2_control_demos
+[12.272s] -- Install configuration: ""
+[12.275s] -- Execute custom install script
+[12.279s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[12.309s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[12.332s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[12.356s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[12.377s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[12.401s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[12.417s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[12.435s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[12.448s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[12.465s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[12.504s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[12.531s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[12.577s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[12.625s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[12.642s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[12.664s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[12.679s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[12.691s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[12.709s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[12.726s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[12.740s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[12.758s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[12.777s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[12.803s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[12.847s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[12.862s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[12.882s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[12.894s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[12.908s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[12.938s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[12.961s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[12.992s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[13.040s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[13.059s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[13.082s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[13.102s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[13.120s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[13.139s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[13.154s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[13.171s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[13.185s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[13.194s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[13.218s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[13.244s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[13.259s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[13.266s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[13.274s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[13.280s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[13.297s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[13.310s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[13.322s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[13.340s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[13.352s] -- Symlinking: /home/ur10e/ur_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[13.366s] Invoked command in '/home/ur10e/ur_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/home/ur10e/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/ur10e/ur_ws/build/gazebo_ros2_control_demos

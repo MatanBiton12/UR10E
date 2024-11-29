@@ -1,0 +1,79 @@
+[0.015s] Invoking command in '/home/ur10e/ur_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur:/home/ur10e/ur_ws/install/ur_calibration:/home/ur10e/ur_ws/install/ur_robot_driver:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur10e_2fg7_moveit_config2:/home/ur10e/ur_ws/install/ur10e_2fg7_description:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/ur_ws/install/gazebo_ros2_control_demos:/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_robot_driver/lib:/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ur10e/ur_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur10e/ur_ws/install/ur_robot_driver
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.263s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.268s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.489s] -- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)
+[0.548s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.554s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.565s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.809s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.813s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.852s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.939s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.943s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.962s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.971s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.980s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.993s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.005s] -- Looking for pthread.h
+[1.087s] -- Looking for pthread.h - found
+[1.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.156s] -- Found Threads: TRUE  
+[1.249s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.251s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.260s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.279s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.281s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.281s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.350s] -- Found ur_dashboard_msgs: 2.2.15 (/home/ur10e/ur_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.606s] -- Found ur_controllers: 2.2.15 (/home/ur10e/ur_ws/install/ur_controllers/share/ur_controllers/cmake)
+[1.631s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.684s] -- Found ur_description: 2.1.7 (/home/ur10e/ur_ws/install/ur_description/share/ur_description/cmake)
+[1.687s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.691s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.712s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.721s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.721s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.721s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.721s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.746s] -- Found PythonExtra: .so  
+[1.747s] -- Configuring done
+[1.846s] -- Generating done
+[1.847s] -- Build files have been written to: /home/ur10e/ur_ws/build/ur_robot_driver
+[1.859s] Invoked command in '/home/ur10e/ur_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur:/home/ur10e/ur_ws/install/ur_calibration:/home/ur10e/ur_ws/install/ur_robot_driver:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur10e_2fg7_moveit_config2:/home/ur10e/ur_ws/install/ur10e_2fg7_description:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/ur_ws/install/gazebo_ros2_control_demos:/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_robot_driver/lib:/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/ur10e/ur_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur10e/ur_ws/install/ur_robot_driver
+[1.863s] Invoking command in '/home/ur10e/ur_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/ur10e/ur_ws/install/ur_controllers:/home/ur10e/ur_ws/install/ur_description:/home/ur10e/ur_ws/install/ur_dashboard_msgs:/home/ur10e/install/ur_simulation_gazebo:/home/ur10e/install/ur:/home/ur10e/install/ur_calibration:/home/ur10e/install/ur_robot_driver:/home/ur10e/install/ur10e_2fg7_moveit_config2:/home/ur10e/install/gazebo_ros2_control_demos:/home/ur10e/install/gazebo_ros2_control:/home/ur10e/ur_ws/install/ur_simulation_gazebo:/home/ur10e/ur_ws/install/ur:/home/ur10e/ur_ws/install/ur_calibration:/home/ur10e/ur_ws/install/ur_robot_driver:/home/ur10e/ur_ws/install/ur_moveit_config:/home/ur10e/ur_ws/install/ur_bringup:/home/ur10e/ur_ws/install/ur10e_2fg7_moveit_config2:/home/ur10e/ur_ws/install/ur10e_2fg7_description:/home/ur10e/ur_ws/install/onrobot_2fg7_gripper_description:/home/ur10e/ur_ws/install/gazebo_ros2_control_demos:/home/ur10e/ur_ws/install/gazebo_ros2_control:/home/ur10e/install/ur_moveit_config:/home/ur10e/install/ur_bringup:/home/ur10e/install/ur10e_2fg7_description:/home/ur10e/install/ur_description:/home/ur10e/install/ur_controllers:/home/ur10e/install/ur_dashboard_msgs:/home/ur10e/install/onrobot_2fg7_gripper_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ur10e/ur_ws/install/ur_controllers/lib:/home/ur10e/ur_ws/install/ur_dashboard_msgs/lib:/home/ur10e/install/ur_robot_driver/lib:/home/ur10e/install/gazebo_ros2_control/lib:/home/ur10e/ur_ws/install/ur_robot_driver/lib:/home/ur10e/ur_ws/install/gazebo_ros2_control/lib:/home/ur10e/install/ur_controllers/lib:/home/ur10e/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ur10e/ur_ws/build/ur_robot_driver -- -j8 -l8
+[1.922s] [  6%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[1.924s] [ 13%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[1.927s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[1.930s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[1.932s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[1.934s] [ 40%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[1.937s] [ 46%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[1.958s] [ 46%] Built target ament_cmake_python_symlink_ur_robot_driver
+[2.438s] running egg_info
+[2.440s] creating ur_robot_driver.egg-info
+[2.440s] writing ur_robot_driver.egg-info/PKG-INFO
+[2.440s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[2.440s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[2.440s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.451s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.452s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.516s] [ 46%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[2.538s] [ 53%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[3.905s] [ 60%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m

@@ -1,0 +1,102 @@
+[0.019s] Invoking command in '/home/ur10e/ur_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ur10e/ur_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur10e/ur_ws/install/ur_description
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.266s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.408s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.506s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.091s] -- Configuring done
+[1.095s] -- Generating done
+[1.096s] -- Build files have been written to: /home/ur10e/ur_ws/build/ur_description
+[1.102s] Invoked command in '/home/ur10e/ur_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ur10e/ur_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur10e/ur_ws/install/ur_description
+[1.103s] Invoking command in '/home/ur10e/ur_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ur10e/ur_ws/build/ur_description -- -j8 -l8
+[1.140s] Invoked command in '/home/ur10e/ur_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ur10e/ur_ws/build/ur_description -- -j8 -l8
+[1.160s] Invoking command in '/home/ur10e/ur_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ur10e/ur_ws/build/ur_description
+[1.168s] -- Install configuration: ""
+[1.168s] -- Execute custom install script
+[1.168s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.175s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.182s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.188s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.195s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.202s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.208s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.215s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.221s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.228s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.236s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.244s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.251s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.258s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.265s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.276s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.286s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.295s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.302s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.308s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.314s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.321s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.330s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.340s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.349s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.358s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.366s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.373s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.380s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.388s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.395s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.402s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.409s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.417s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.424s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.432s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.439s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.449s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.456s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.463s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.471s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.479s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.489s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.494s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.501s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.510s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.518s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.526s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.536s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.542s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.550s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.557s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.567s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[1.576s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[1.583s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[1.594s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[1.602s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[1.611s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[1.619s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[1.627s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[1.636s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[1.643s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[1.653s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[1.662s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[1.669s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/environment/path.sh
+[1.677s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/environment/path.dsv
+[1.684s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/local_setup.bash
+[1.693s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/local_setup.sh
+[1.699s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/local_setup.zsh
+[1.706s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/local_setup.dsv
+[1.713s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/package.dsv
+[1.721s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[1.728s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[1.736s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[1.744s] -- Symlinking: /home/ur10e/ur_ws/install/ur_description/share/ur_description/package.xml
+[1.754s] Invoked command in '/home/ur10e/ur_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ur10e/ur_ws/build/ur_description

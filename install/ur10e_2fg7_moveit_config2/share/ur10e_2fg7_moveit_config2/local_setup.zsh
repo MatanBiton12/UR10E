@@ -1,0 +1,1 @@
+/home/ur10e/ur_ws/build/ur10e_2fg7_moveit_config2/ament_cmake_environment_hooks/local_setup.zsh

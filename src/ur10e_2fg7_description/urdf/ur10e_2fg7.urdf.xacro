@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur10e_2fg7">
+  <!-- Include UR10e macro -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+  
+  <!-- Include OnRobot 2FG7 macro -->
+  <xacro:include filename="$(find onrobot_2fg7_gripper_description)/urdf/onrobot_2fg7.xacro" />
+
+  <!-- Create the world link -->
+  <link name="world"/>
+
+  <!-- UR10e Robot -->
+  <xacro:ur_robot
+    name="ur10e"
+    tf_prefix=""
+    parent="world"
+    joint_limits_parameters_file="$(find ur_description)/config/ur10e/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/ur10e/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/ur10e/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/ur10e/visual_parameters.yaml"
+    sim_gazebo="true"
+    sim_ignition="false"
+    headless_mode="false">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- 2FG7 Gripper -->
+  <xacro:onrobot_2fg7_gripper prefix="" parent="tool0">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:onrobot_2fg7_gripper>
+
+  <!-- ros2_control configuration -->
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find ur10e_2fg7_description)/config/controllers.yaml</parameters>
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+    </plugin>
+  </gazebo>
+</robot>

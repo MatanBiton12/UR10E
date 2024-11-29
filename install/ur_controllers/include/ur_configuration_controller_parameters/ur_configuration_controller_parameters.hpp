@@ -1,0 +1,1 @@
+/home/ur10e/ur_ws/build/ur_controllers/ur_configuration_controller_parameters/include/ur_configuration_controller_parameters.hpp

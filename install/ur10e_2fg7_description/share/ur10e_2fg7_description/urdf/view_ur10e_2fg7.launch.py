@@ -1,0 +1,1 @@
+/home/ur10e/ur_ws/src/ur10e_2fg7_description/urdf/view_ur10e_2fg7.launch.py

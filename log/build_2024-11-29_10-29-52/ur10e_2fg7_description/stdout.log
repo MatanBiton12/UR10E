@@ -1,0 +1,31 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/bridge_config.yaml
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/controllers.yaml
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/initial_positions.yaml
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/ur10e/default_kinematics.yaml
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/ur10e/joint_limits.yaml
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/ur10e/physical_parameters.yaml
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/ur10e/visual_parameters.yaml
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/config/view_robot.rviz
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/launch/ur10e_2fg7_gazebo.launch.py
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/urdf/gazebo.xacro
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/urdf/ur10e_2fg7.urdf.xacro
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/urdf/view_ur10e_2fg7.launch.py
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/worlds/empty.world
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/resource/ur10e_2fg7_description
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ament_index/resource_index/package_run_dependencies/ur10e_2fg7_description
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ament_index/resource_index/parent_prefix_path/ur10e_2fg7_description
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/environment/path.sh
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/environment/path.dsv
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/local_setup.bash
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/local_setup.sh
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/local_setup.zsh
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/local_setup.dsv
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/package.dsv
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ament_index/resource_index/packages/ur10e_2fg7_description
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/cmake/ur10e_2fg7_descriptionConfig.cmake
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/cmake/ur10e_2fg7_descriptionConfig-version.cmake
+-- Symlinking: /home/ur10e/ur_ws/install/ur10e_2fg7_description/share/ur10e_2fg7_description/package.xml

@@ -1,0 +1,1 @@
+/home/ur10e/ur_ws/build/ur_description/ament_cmake_core/ur_descriptionConfig.cmake

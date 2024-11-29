@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>onrobot_2fg7_gripper_description</name>
+  <version>0.0.1</version>
+  <description>OnRobot 2FG7 Gripper Description Package</description>
+  <maintainer email="user@todo.todo">ur10e</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
