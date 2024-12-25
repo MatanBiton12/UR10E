@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Gazebo plugins -->
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find ur10e_2fg7_description)/config/controllers.yaml</parameters>
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+    </plugin>
+  </gazebo>
+
+  <!-- Gazebo colors -->
+  <gazebo reference="world">
+    <static>true</static>
+  </gazebo>
+
+  <!-- Gripper colors -->
+  <gazebo reference="gripper_base_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="gripper_left_finger_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="gripper_right_finger_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+</robot>
